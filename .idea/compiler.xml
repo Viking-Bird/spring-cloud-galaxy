@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="compute-service" />
+        <module name="eureka-client" />
         <module name="eureka-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="compute-service" target="1.8" />
+      <module name="eureka-client" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="spring-cloud-galaxy" target="1.8" />
     </bytecodeTargetLevel>
