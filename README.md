@@ -8,3 +8,8 @@
 
 [MicroServices – Part 3 : Spring Cloud Service Registry and Discovery
 ](https://www.javacodegeeks.com/2018/03/microservices-part-3-spring-cloud-service-registry-and-discovery.html)
+
+
+### feign调用实现
+
+[springcloud(三)：服务提供与调用](http://www.ityouknow.com/springcloud/2017/05/12/eureka-provider-constomer.html)

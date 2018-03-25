@@ -8,13 +8,17 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-client" />
         <module name="eureka-server" />
+        <module name="spring-cloud-consumer" />
+        <module name="spring-cloud-producer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="compute-service" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="spring-cloud-consumer" target="1.8" />
       <module name="spring-cloud-galaxy" target="1.8" />
+      <module name="spring-cloud-producer" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
