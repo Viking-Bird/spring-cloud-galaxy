@@ -13,3 +13,10 @@
 ### feign调用实现
 
 [springcloud(三)：服务提供与调用](http://www.ityouknow.com/springcloud/2017/05/12/eureka-provider-constomer.html)
+
+
+## 2、服务发现、配置管理
+
+### consul
+
+[Consul Service Registration and Discovery Example](https://howtodoinjava.com/spring/spring-cloud/consul-service-registration-discovery/)

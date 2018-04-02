@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consul-school/consul-school.iml" filepath="$PROJECT_DIR$/consul-school/consul-school.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consul-student/consul-student.iml" filepath="$PROJECT_DIR$/consul-student/consul-student.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-consumer/spring-cloud-consumer.iml" filepath="$PROJECT_DIR$/spring-cloud-consumer/spring-cloud-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-galaxy.iml" filepath="$PROJECT_DIR$/spring-cloud-galaxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-producer/spring-cloud-producer.iml" filepath="$PROJECT_DIR$/spring-cloud-producer/spring-cloud-producer.iml" />
     </modules>
