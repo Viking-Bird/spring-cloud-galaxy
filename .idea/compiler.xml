@@ -6,15 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="config-server" />
+        <module name="cloud-config-client" />
+        <module name="cloud-config-server" />
         <module name="consul-school" />
         <module name="consul-student" />
         <module name="eureka-client" />
         <module name="eureka-server" />
+        <module name="spring-cloud-consumer" />
         <module name="spring-cloud-producer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cloud-config-client" target="1.8" />
+      <module name="cloud-config-server" target="1.8" />
       <module name="compute-service" target="1.8" />
       <module name="config-server" target="1.8" />
       <module name="consul-config" target="1.8" />

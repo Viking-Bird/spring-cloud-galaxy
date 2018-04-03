@@ -14,6 +14,8 @@
         <module>spring-cloud-consumer</module>
         <module>consul-school</module>
         <module>consul-student</module>
+        <module>cloud-config-server</module>
+        <module>cloud-config-client</module>
     </modules>
 
     <parent>

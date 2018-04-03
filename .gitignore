@@ -35,3 +35,6 @@ gen
 /spring-cloud-consumer/target/
 /.idea/
 /.idea/workspace.xml
+/consul-school/target/
+/cloud-config-server/target/
+/cloud-config-client/target/
