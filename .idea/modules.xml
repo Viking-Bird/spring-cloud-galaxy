@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/cloud-config-client/cloud-config-client.iml" filepath="$PROJECT_DIR$/cloud-config-client/cloud-config-client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud-config-server/cloud-config-server.iml" filepath="$PROJECT_DIR$/cloud-config-server/cloud-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/consul-school/consul-school.iml" filepath="$PROJECT_DIR$/consul-school/consul-school.iml" />
       <module fileurl="file://$PROJECT_DIR$/consul-student/consul-student.iml" filepath="$PROJECT_DIR$/consul-student/consul-student.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />

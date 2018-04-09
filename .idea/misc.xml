@@ -9,6 +9,8 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/cloud-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/compute-service/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/consul-config/pom.xml" />
