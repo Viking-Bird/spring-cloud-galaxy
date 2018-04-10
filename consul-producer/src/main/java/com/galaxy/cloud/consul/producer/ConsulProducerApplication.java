@@ -46,12 +46,17 @@ public class ConsulProducerApplication implements CommandLineRunner{
     @Value("${spring.cloud.consul.config.name}")
     private String name;
 
-    private KeyValueClient kvClient;
+    private static KeyValueClient kvClient;
 
+    /**
+     * 应用启动时，将配置载入到consul中。在载入配置期间会进行key值是否存在判断，如果已存在key信息，则不将配置载入到consul
+     * @param args
+     * @throws Exception
+     */
     @Override
     public void run(String... args) throws Exception {
 
-        LOG.info("Connecting to Consul client at " + host + ":" + port);
+        LOG.info("Connecting to Consul client at {}:{}",host,port);
 
         HostAndPort hostAndPort = HostAndPort.fromParts(host, port);
         Consul consul = Consul.builder().withHostAndPort(hostAndPort).build();
@@ -66,7 +71,7 @@ public class ConsulProducerApplication implements CommandLineRunner{
         File file = resource.getFile();
 
         if (file.toString().endsWith(".yml") || file.toString().endsWith(".properties")) {
-            LOG.info("found config file: " + file.getName() + " in context " + file.getParentFile().getPath());
+            LOG.info("Found config file: " + file.getName() + " in context " + file.getParentFile().getPath());
 
             try (InputStream input = new FileInputStream(file)) {
 
@@ -79,6 +84,7 @@ public class ConsulProducerApplication implements CommandLineRunner{
                     String value = prop.getValue().toString();
                     // 如果consul中已存在键值，则不重新设置
                     String received = kvClient.getValueAsString(key).orElse("");
+                    LOG.info("Found key: {}, value: {}",key,received);
                     if (StringUtils.isBlank(received)){
                         kvClient.putValue(key, value);
                     }
