@@ -1,8 +1,12 @@
 # Spring-cloud-galaxy
 
-## 1、整合
+## 1、Introducion
 
-### spring boot 2.0 整合 spring-cloud
+Enviorment: spring boot 2.0 + spring cloud + JDK 1.8 + IDEA 2018.1
+
+## 2、Integration
+
+### spring boot 2.0 integrate with spring-cloud
 
 [Microservices with Spring Boot - Part 5 - Using Eureka Naming Server](http://www.springboottutorial.com/microservices-with-spring-boot-part-5-eureka-naming-server)
 
@@ -15,7 +19,7 @@
 [springcloud(三)：服务提供与调用](http://www.ityouknow.com/springcloud/2017/05/12/eureka-provider-constomer.html)
 
 
-## 2、服务发现、配置管理
+## 3、Service discovery and config management
 
 ### consul
 

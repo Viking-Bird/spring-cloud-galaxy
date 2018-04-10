@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eced03a4-8d73-4e4f-8c8c-c9eb3fbb13f5" name="Default" comment="add spring boot 2.0 and spring cloud eureka integration">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consul-producer/src/main/java/com/galaxy/cloud/consul/producer/ConsulProducerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/consul-producer/src/main/java/com/galaxy/cloud/consul/producer/ConsulProducerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consul-school/src/main/resources/bootstrap.yml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,20 +32,7 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ConsulProducerApplication.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/consul-producer/src/main/java/com/galaxy/cloud/consul/producer/ConsulProducerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="86" column="45" selection-start-line="86" selection-start-column="45" selection-end-line="86" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,7 +70,6 @@
         <option value="$PROJECT_DIR$/consul-student/src/main/java/com/galaxy/consul/student/web/StudentServiceController.java" />
         <option value="$PROJECT_DIR$/consul-school/src/main/java/com/galaxy/consul/school/web/SchoolServiceController.java" />
         <option value="$PROJECT_DIR$/consul-school/src/main/java/com/galaxy/consul/school/delegate/StudentServiceDelegate.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/consul-config/pom.xml" />
         <option value="$PROJECT_DIR$/consul-school/src/main/java/com/galaxy/consul/school/properties/MyProperties.java" />
         <option value="$PROJECT_DIR$/consul-school/src/main/resources/application.properties" />
@@ -127,6 +112,7 @@
         <option value="$PROJECT_DIR$/consul-producer/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/consul-producer/pom.xml" />
         <option value="$PROJECT_DIR$/consul-producer/src/main/java/com/galaxy/cloud/consul/producer/ConsulProducerApplication.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -271,69 +257,6 @@
             <path>
               <item name="spring-cloud-galaxy" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-galaxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="consul-producer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="consul-producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="consul-producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="consul-producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="consul-producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="producer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="consul-producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="producer" type="462c0819:PsiDirectoryNode" />
-              <item name="feign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="consul-producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="producer" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-galaxy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-galaxy" type="462c0819:PsiDirectoryNode" />
-              <item name="consul-producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -621,7 +544,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113099000" />
+    <option name="totallyTimeSpent" value="113222000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -634,7 +557,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1001" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3294509" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32690126" />
@@ -643,10 +565,10 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5021299" side_tool="true" weight="0.49148694" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4978701" visible="true" weight="0.49148694" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978701" weight="0.49148694" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3294509" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3291714" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.38711396" weight="0.4335982" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.38711396" visible="true" weight="0.4335982" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22949947" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24973376" />
@@ -658,20 +580,42 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4971623" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="10" weight="0.3289256" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32960597" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="UI Designer" order="6" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5021299" side_tool="true" weight="0.49148694" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22949947" />
+      <window_info auto_hide="true" id="Learn" internal_type="SLIDING" order="7" show_stripe_button="false" type="SLIDING" weight="0.32960597" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32960597" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.3294509" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4971623" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.38711396" weight="0.4335982" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="10" weight="0.3289256" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24973376" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Bean Validation" order="6" weight="0.32960597" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3294509" />
       <window_info anchor="right" id="Capture Analysis" order="9" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3294509" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="UI Designer" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4978701" visible="true" weight="0.49148694" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32690126" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3291714" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info id="Designer" order="2" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -690,14 +634,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consul-school/src/main/resources/bootstrap.properties" />
     <entry file="file://$PROJECT_DIR$/consul-school/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -799,70 +735,15 @@
     <entry file="file://$PROJECT_DIR$/applogs/springboot_log.log" />
     <entry file="file://$PROJECT_DIR$/consul-school/src/main/resources/log4j2-spring.xml" />
     <entry file="file://$PROJECT_DIR$/consul-school/src/main/resources/log4j.properties" />
-    <entry file="file://$PROJECT_DIR$/consul-student/consul-student.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1544" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consul-student/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consul-student/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consul-school/src/main/java/com/galaxy/consul/school/delegate/StudentServiceDelegate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consul-school/src/main/java/com/galaxy/consul/school/web/SchoolServiceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consul-producer/src/main/java/com/galaxy/consul/producer/properties/DistributedPropertiesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consul-producer/src/main/java/com/galaxy/consul/producer/web/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consul-producer/src/main/java/com/galaxy/consul/producer/feign/TestFeign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consul-producer/src/main/java/com/galaxy/consul/producer/SpringCloudConsulSchoolApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/consul-student/consul-student.iml" />
+    <entry file="file://$PROJECT_DIR$/consul-student/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/consul-student/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/consul-school/src/main/java/com/galaxy/consul/school/delegate/StudentServiceDelegate.java" />
+    <entry file="file://$PROJECT_DIR$/consul-school/src/main/java/com/galaxy/consul/school/web/SchoolServiceController.java" />
+    <entry file="file://$PROJECT_DIR$/consul-producer/src/main/java/com/galaxy/consul/producer/properties/DistributedPropertiesController.java" />
+    <entry file="file://$PROJECT_DIR$/consul-producer/src/main/java/com/galaxy/consul/producer/web/TestController.java" />
+    <entry file="file://$PROJECT_DIR$/consul-producer/src/main/java/com/galaxy/consul/producer/feign/TestFeign.java" />
+    <entry file="file://$PROJECT_DIR$/consul-producer/src/main/java/com/galaxy/consul/producer/SpringCloudConsulSchoolApplication.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -888,9 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -905,10 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="96" column="16" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
-          <folding>
-            <element signature="e#2517#2518#0" expanded="true" />
-            <element signature="e#2569#2570#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -979,10 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
           <caret line="334" column="26" selection-start-line="334" selection-start-column="26" selection-end-line="334" selection-end-column="26" />
-          <folding>
-            <element signature="e#7729#7730#0" expanded="true" />
-            <element signature="e#7782#7783#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1012,6 +882,17 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consul-school/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
