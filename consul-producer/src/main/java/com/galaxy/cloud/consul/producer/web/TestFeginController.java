@@ -1,31 +1,39 @@
-package com.galaxy.consul.school.web;
+package com.galaxy.cloud.consul.producer.web;
 
-import com.galaxy.consul.school.feign.TestFeign;
+import com.galaxy.cloud.consul.producer.feign.TestFeign;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
+ * 测试远程调用
+ *
  * Created by wangpeng on 2018/4/2.
  */
 @RestController
 @RequestMapping("/ping")
-public class TestController {
+public class TestFeginController {
 
     @Autowired
     private TestFeign testFeign;
 
-    public TestController(){
+    public TestFeginController(){
         //For Spring
     }
 
-    @RequestMapping
+    @GetMapping
     public String doAlive() {
         return "Alive!";
     }
 
-    @RequestMapping("/rest/feign")
+    @GetMapping(value = "/rest/feign")
     public String doRestAliveUsingFeign() {
         return testFeign.doAlive();
+    }
+
+    @GetMapping(value = "/rest/value")
+    public String getConfigFromValue(){
+        return this.testFeign.getConfigFromValue();
     }
 }

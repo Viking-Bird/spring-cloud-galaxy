@@ -1,4 +1,4 @@
-package com.galaxy.consul.school.properties;
+package com.galaxy.cloud.consul.producer.web;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,10 +18,13 @@ public class DistributedPropertiesController {
     @Value("${author}")
     String value;
 
+    @Value("${film}")
+    String film;
+
     @GetMapping("/getConfigFromValue")
     public String getConfigFromValue() {
         logger.info("some message");
-        return value;
+        return value + film;
     }
 
 }

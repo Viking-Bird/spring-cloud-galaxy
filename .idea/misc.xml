@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/consul-config/pom.xml" />
         <option value="$PROJECT_DIR$/consul-server/pom.xml" />
+        <option value="$PROJECT_DIR$/consul-student/pom.xml" />
       </set>
     </option>
   </component>

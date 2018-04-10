@@ -12,8 +12,8 @@
         <module>eureka-server</module>
         <module>spring-cloud-producer</module>
         <module>spring-cloud-consumer</module>
-        <module>consul-school</module>
-        <module>consul-student</module>
+        <module>consul-producer</module>
+        <module>consul-producer</module>
     </modules>
 
     <parent>

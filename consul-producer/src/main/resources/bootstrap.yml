@@ -1,0 +1,29 @@
+server:
+  port: 8980
+
+spring:
+  application:
+    name: pig-consul
+  cloud:
+    consul:
+      host: local-2
+      port: 8500
+      discovery:
+        port: ${server.port}
+        enabled: true
+        register: true
+        deregister: true
+        prefer-ip-address: true
+        health-check-interval: 15s
+        health-check-path: /actuator/health
+        instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
+      config:
+        enabled: true
+        format: key_value
+        watch:
+          enabled: true
+          delay: 1000
+          wait-time: 60
+        fail-fast: true
+        prefix: config
+        name: ${spring.application.name}

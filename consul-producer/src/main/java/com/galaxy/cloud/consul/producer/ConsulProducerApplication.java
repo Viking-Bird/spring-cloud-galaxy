@@ -1,8 +1,9 @@
-package com.galaxy.consul.school;
+package com.galaxy.cloud.consul.producer;
 
 import com.google.common.net.HostAndPort;
 import com.orbitz.consul.Consul;
 import com.orbitz.consul.KeyValueClient;
+import org.apache.commons.lang3.StringUtils;
 import org.cfg4j.source.context.propertiesprovider.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,19 +21,18 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.Properties;
 
 @EnableDiscoveryClient
 @EnableFeignClients
 @SpringBootApplication
 @EnableScheduling
-public class SpringCloudConsulSchoolApplication implements CommandLineRunner {
+public class ConsulProducerApplication implements CommandLineRunner{
 
-    private static final Logger LOG = LoggerFactory.getLogger(SpringCloudConsulSchoolApplication.class);
-
-    @Value("${globalPrefix}")
-    private String globalPrefix;
+    private static final Logger LOG = LoggerFactory.getLogger(ConsulProducerApplication.class);
 
     @Value("${spring.cloud.consul.host}")
     private String host;
@@ -40,8 +40,13 @@ public class SpringCloudConsulSchoolApplication implements CommandLineRunner {
     @Value("${spring.cloud.consul.port}")
     private int port;
 
+    @Value("${spring.cloud.consul.config.prefix}")
+    private String prefix;
+
+    @Value("${spring.cloud.consul.config.name}")
+    private String name;
+
     private KeyValueClient kvClient;
-    private Map<String, String> consulValues;
 
     @Override
     public void run(String... args) throws Exception {
@@ -70,9 +75,14 @@ public class SpringCloudConsulSchoolApplication implements CommandLineRunner {
                 properties.putAll(provider.getProperties(input));
 
                 for (Map.Entry<Object, Object> prop : properties.entrySet()) {
-                    kvClient.putValue("config/" + globalPrefix + "/data", prop.getKey().toString() + ": " + prop.getValue().toString());
+                    String key = prefix + "/" + name + "/" + prop.getKey().toString();
+                    String value = prop.getValue().toString();
+                    // 如果consul中已存在键值，则不重新设置
+                    String received = kvClient.getValueAsString(key).orElse("");
+                    if (StringUtils.isBlank(received)){
+                        kvClient.putValue(key, value);
+                    }
                 }
-
             } catch (IOException e) {
                 LOG.error("Unable to load properties from file: " + file, e);
             }
@@ -80,6 +90,6 @@ public class SpringCloudConsulSchoolApplication implements CommandLineRunner {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringCloudConsulSchoolApplication.class, args);
+        SpringApplication.run(ConsulProducerApplication.class, args);
     }
 }

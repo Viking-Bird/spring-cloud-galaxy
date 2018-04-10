@@ -1,6 +1,7 @@
-package com.galaxy.consul.school.feign;
+package com.galaxy.cloud.consul.producer.feign;
 
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -10,6 +11,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @FeignClient("pig-consul")
 public interface TestFeign {
 
-    @RequestMapping(value="/ping", method = RequestMethod.GET)
+    @GetMapping(value="/ping")
     String doAlive();
+
+    @GetMapping(value = "/config/getConfigFromValue")
+    String getConfigFromValue();
 }

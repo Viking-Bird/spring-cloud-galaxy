@@ -2,9 +2,8 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-config-client" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-config-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/consul-school" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consul-producer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consul-producer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consul-student" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-consumer" charset="UTF-8" />

@@ -6,8 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="consul-school" />
-        <module name="consul-student" />
+        <module name="consul-producer" />
         <module name="eureka-client" />
         <module name="eureka-server" />
         <module name="spring-cloud-consumer" />
@@ -20,7 +19,7 @@
       <module name="compute-service" target="1.8" />
       <module name="config-server" target="1.8" />
       <module name="consul-config" target="1.8" />
-      <module name="consul-school" target="1.8" />
+      <module name="consul-producer" target="1.8" />
       <module name="consul-server" target="1.8" />
       <module name="consul-student" target="1.8" />
       <module name="eureka-client" target="1.8" />
